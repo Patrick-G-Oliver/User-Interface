@@ -65,9 +65,34 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+body {
+	width: 88%;
+	margin: 0 auto;
+}
+
 nav {
-	background:pink;
-	padding; 20px;
+	padding: 20px;
+	width: 75%;
 } 
 
+header > nav, img {
+	display: inline-block;
+}
+
+a {
+	display: inline-block;
+	width: 15%;
+	text-align: center;
+	text-decoration: none;
+	color: rgb(167, 167, 167);
+}
+
+/*nav img {
+	margin: 0 25px;
+}*/
+
+nav, section, footer {
+	border: 1px solid;
+	margin: 2px;
+}
 
